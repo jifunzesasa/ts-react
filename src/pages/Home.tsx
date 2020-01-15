@@ -47,7 +47,7 @@ function Home() {
     <div className="row">
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project One</Link>
@@ -58,7 +58,7 @@ function Home() {
       </div>
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project Two</Link>
@@ -69,7 +69,7 @@ function Home() {
       </div>
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project Three</Link>
@@ -80,7 +80,7 @@ function Home() {
       </div>
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt="" /></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project Four</Link>
@@ -91,7 +91,7 @@ function Home() {
       </div>
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project Five</Link>
@@ -102,7 +102,7 @@ function Home() {
       </div>
       <div className="col-lg-4 col-sm-6 portfolio-item">
         <div className="card h-100">
-          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></Link>
+          <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
           <div className="card-body">
             <h4 className="card-title">
               <Link to="#">Project Six</Link>
@@ -129,14 +129,13 @@ function Home() {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
       </div>
       <div className="col-lg-6">
-        <img className="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        <img className="img-fluid rounded" src="http://placehold.it/700x450" alt=""/>
       </div>
     </div>
-   
 
-    <hr>
+    <hr />
 
-   
+
     <div className="row mb-4">
       <div className="col-md-8">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
@@ -147,8 +146,7 @@ function Home() {
     </div>
 
   </div>
-  
-  </div>
+
   );
 }
 

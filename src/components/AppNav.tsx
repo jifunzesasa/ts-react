@@ -1,14 +1,13 @@
 import React from "react";
-import App from "../App";
 import { Link } from "react-router-dom";
 
 function AppNav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Ellex
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,7 +17,7 @@ function AppNav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"/>
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
